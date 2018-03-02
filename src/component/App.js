@@ -7,7 +7,7 @@ import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
 
-import Roi from '../plangrid/roi';
+// import Roi from '../plangrid/roi';
 
 export default class App extends Component {
   constructor(props){
@@ -41,7 +41,7 @@ export default class App extends Component {
           clickHandler={this.handleClick}
         />
 
-        <Roi />
+        {/* <Roi /> */}
       </div>
 
 
